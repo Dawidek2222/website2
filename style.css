@@ -2,7 +2,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    background-image: url(https://wallpaperaccess.com/full/5143161.jpg);
+    background-image: url(https://cdn.discordapp.com/attachments/928359956594438165/928382502312239134/4903659.png);
 }
 
 ul {
@@ -31,10 +31,10 @@ ul {
     text-decoration: none;
   }
     li a:hover {
-        background-color: #2a0449;
+        background-color: #0866f3;
     }
   .active {
-    background-color: #591492;
+    background-color: #0866f3;
   }
   .center {
     margin-top: 5%;
@@ -129,7 +129,7 @@ ul {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #591492;
+    background: #155bdb;
     border-radius: 10px;
 
   }
