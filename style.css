@@ -2,7 +2,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    background-image: url(https://cdn.discordapp.com/attachments/928359956594438165/928382502312239134/4903659.png);
+    background-image: url(https://cdn.discordapp.com/attachments/815674080740900884/949066802397343774/banner_zapro_vintage.png);
 }
 
 ul {
@@ -31,10 +31,10 @@ ul {
     text-decoration: none;
   }
     li a:hover {
-        background-color: #0866f3;
+        background-color: #03e3fc;
     }
   .active {
-    background-color: #0866f3;
+    background-color: #03e3fc;
   }
   .center {
     margin-top: 5%;
@@ -70,7 +70,7 @@ ul {
     -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
     -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
     box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0);
 
   }
   .grid2x2 {
@@ -129,7 +129,7 @@ ul {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #155bdb;
+    background: #03e3fc;
     border-radius: 10px;
 
   }
