@@ -4,9 +4,9 @@ lua54 'yes'
 
 files {
     'index.html',
-    'ekortyla.css',
-    'ek.png',
-    'ek.mp3'
+    'mrk.css',
+    'mrkwallaper.png',
+    'mrkmusic.mp3'
 }
 
 loadscreen 'index.html'
