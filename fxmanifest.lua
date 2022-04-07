@@ -1,4 +1,4 @@
-author 'E.Kortyla'
+author 'MRK'
 
 lua54 'yes'
 
