@@ -1,67 +1,75 @@
 
-      <html>
-    <head>
-        <meta charset="utf-8">
-        <title>VintageRP.pl</title>
-        <link href="mrk.css" rel="stylesheet" type="text/css" />
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="></script>
-    </head>
-    <body>  
-        <div class="informacja"> 
-            <div class="inf">
-                <img src="https://cdn.discordapp.com/attachments/912133181610819584/912137672775045170/22.png"> INFORMACJA
-                <b></b><br>
-                <b></b><br>Dziękujemy za odwiedzenie naszej strony wkrótce więcej informacji na temat serwera!
-                <b></b><br>
-                <b></b><br>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VintageRP.pl</title>
+    <meta charset='UTF-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <link rel='icon' href='assets/img/pl.ico' type='image/x-icon'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJGEM80E7H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TJGEM80E7H');
+    </script>
+</head>
+
+<body>
+    <!-- Section 1 -->
+    <div class='section-1'>
+        <header class='header' id='header'>
+
+            <div class='logo'>
+                <img height='256' width='256' src='assets/img/pl.png'>
             </div>
-        </div> 
-        <div class="filtr"></div>
-        <div class='ekortyla'>
-            <div class="overcast"></div>
-            <div class='mrk'>
-                <center><img src='https://cdn.discordapp.com/attachments/838848912563241011/957427811465977866/vintage3.png'></center>
-                <p class='mrkthebestdeveloper'></p>
-            </div>
-            <audio id="mrk" src="mrkmusic.mp3" autoplay="true" hidden="true" loop="true"></audio>
+            <h1>STRONA W BUDOWIE!</h1>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Section 2 -->
+    <div class='section-2' id='about'>
+
         </div>
-        <div class="created">DISCORD (WKRÓTCE)<color></color></div>
-    </body>
+    </div>
+
+    <!-- Section 3 -->
+    <footer>
+        <div class='section-3' style="float:left; text-decoration: none;">
+            
+                <div class='footer left'>
+                    
+
+                    
+                    <br>
+                   
+                    <br>
+                    
+                    <br>
+                   
+                    <br>
+                </div>
+                <div class='footer center'>
+                    <img width='100px' height='100px' src='assets/img/pl.png'>
+                    <div>Copyright &copy; 2022 VintageRP</div>
+                </div>
+  
+          
+                   
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
-<script>
-    
-    var play = false;
-    var myAudio = document.getElementById("mrk");
-    
-    myAudio.volume = 0.1;
-
-    function onKeyDown(event) {
-            switch (event.keyCode) {
-                case 32:                
-                    if (play) {
-                        myAudio.pause();
-                        play = false;
-                    } else {
-                        myAudio.play();
-                        play = true;
-                    }
-                    break;
-            }
-      return false;
-    }
-
-    window.addEventListener("keydown", onKeyDown, false);
-</script>
-<script>
-    window.addEventListener('message', function(e) {
-        if (e.data.kashacters) {
-
-            $(".main").fadeOut( 800, function() {
-                setTimeout(function() {
-                    $.post("http://loadingscreen/off");
-                }, 1500);
-                
-            });
-        }
-    });
-</script>
