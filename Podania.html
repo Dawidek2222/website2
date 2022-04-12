@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>VintageRP.pl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VintageRP - Liberty City">
+    <meta name="keywords" content="RP, GTA, RolePlay">
+    <meta name="author" content="MRK#9983>
+    <link rel='icon' href='assets/img/logo.ico' type='image/x-icon'>
+    <meta name="theme-color" content="#f063cc">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/62dfbd028b.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header class="header">
+        <a href="Strona_glowna.html" class="logo">VintageRP</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="Regulamin.html">Regulamin</a></li>
+            <li><a href="Podania.html">Podania</a></li>
+        </ul>
+    </header>
+
+    <div class="page">
+        <nav>
+            <ul>
+                <li><a href="Strona_glowna.html" class="navlink">Home</a></li>
+                <li><a href="Regulamin.html" class="navlink">Regulamin</a></li>
+                <li><a href="Podania.html" class="navlink aktywny">Podania</a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+
+
+    </div>
+
+
+   
+    <div class="nav2">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <div class="menu2">
+            <li><a href="">LCPD</a></li>
+            <li><a href="">LCFD</a></li>
+            <li><a href="">LCCS</a></li>
+            <li><a href="">FIRMA</a></li>
+            <li><a href="">CRIME</a></li>
+            <li><a href="">Druga Postać</a></li>
+            <li><a href="">UNBAN</a></li>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="btn-wrap">
+
+            <a href="">LCPD</a></li>
+            <a href="">LCFD</a></li>
+            <a href="">LCCS</a></li>
+            <a href="">FIRMA</a></li>
+            <a href="">CRIME</a></li>
+            <a href="">Druga Postać</a></li>
+            <a href="">UNBAN</a></li>
+    </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>PODANIA WKRÓTCE BĘDĄ DOSTĘPNE!<h1>
+
+    <script language="JavaScript">
+        window.onload = function() {
+            document.addEventListener("contextmenu", function(e) {
+                e.preventDefault();
+            }, false);
+            document.addEventListener("keydown", function(e) {
+
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                    disabledEvent(e);
+                }
+
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                    disabledEvent(e);
+                }
+
+                if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                    disabledEvent(e);
+                }
+
+                if (e.ctrlKey && e.keyCode == 85) {
+                    disabledEvent(e);
+                }
+
+                if (event.keyCode == 123) {
+                    disabledEvent(e);
+                }
+            }, false);
+
+            function disabledEvent(e) {
+                if (e.stopPropagation) {
+                    e.stopPropagation();
+                } else if (window.event) {
+                    window.event.cancelBubble = true;
+                }
+                e.preventDefault();
+                return false;
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>
