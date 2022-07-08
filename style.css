@@ -43,8 +43,8 @@
   border-style: none;
   text-transform: uppercase;
   font-weight: 700;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
@@ -65,6 +65,7 @@
 
   .u-section-1 .u-btn-2 {
     margin-right: 213px;
+    animation-duration: 2500ms;
   }
 }
 
